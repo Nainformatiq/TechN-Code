@@ -1,0 +1,346 @@
+body
+{
+   font-family : sans-serif ;	
+   background-color : #E8EEF2 ;
+   font-family: arial ;
+}
+a
+{
+	color : black ;
+	text-decoration : none ;
+}
+a:hover
+{
+	font-weight: bold ;
+	color : black ;
+	text-decoration : underline ;
+}
+a:focus
+{
+	cursor : wait
+}
+#discordimg
+{
+	width  : 37px ;
+	height : 37px ;
+	position: relative; top: 46px ; left : 43px ;
+}
+nav
+{
+    display: table;
+    width: 100%; /* seul cas où width: 100% est acceptable */
+    table-layout: fixed;
+    position : fixed ;
+    border : 3px solid black ; 
+    width : 220px ;
+    height : 100% ; 
+	background-color : rgb(49, 99, 115)
+    
+}
+header
+{
+    background: linear-gradient(
+      to right, 
+      rgb(49, 99, 115 ), 
+      white 400%
+    );
+    position : relative ; left : 0px ; top : 0px ;
+	display :flex ;
+	border : 3px solid black ;
+	width : 1265px ;
+    height : 130px ;
+	width : 100% ;
+}
+#TechNCode
+{
+	width : 219px ;
+	height : 129px ;
+	border : 2px solid black ;
+}
+.contenu_nav
+{
+
+	display : flex ;
+	flex-direction : column ;
+	justify-content : space-beetween ;
+	
+}
+#element_nav_1
+{
+    top : 180px ;
+	height : 70px ;
+	width : 125px ;
+	background-color: rgb(49; 99; 115) ;
+    color:black;
+    font-weight: bold;
+    padding: 10px 40px;
+    border-radius: 1px;
+    cursor: pointer; 
+    box-shadow: 0 3px 6px 0 black ;
+    list-style-type: none;   
+    text-align : center ;
+    position : fixed ; left : 19px ;
+    transition : box-shadow 1s ;
+   
+}
+#element_nav_1:hover
+{
+    width : 135px ;
+    height : 75px ;
+    position : relative ; left : 8px ; top : 40px ;
+    box-shadow: 12 14px 16px 5 black ;  
+    
+}
+#element_nav_2
+{
+    
+	top : 330px ;
+	height : 70px ;
+	width : 125px ;
+	background-color: rgb(49; 99; 115) ;
+    color:black;
+    font-weight: bold;
+    padding: 10px 40px;
+    border-radius: 1px;
+    cursor: pointer; 
+    box-shadow: 0 3px 6px 0 black ;
+    list-style-type: none ;  
+    text-align : center ;
+    position : fixed ; left : 19px ;    
+    transition : box-shadow 1s ; 
+}
+#element_nav_2:hover
+{
+    background-color: rgb(49; 99; 115) ;
+    box-shadow: 12 14px 16px 5 black ; 
+    width : 135px ;
+    height : 75px ;
+    position : relative ; top : 200px ; left : 8px ;
+ 
+    
+}
+#element_nav_3
+{
+    top : 480px ;
+	height : 70px ;
+	width : 125px ;
+	background-color: rgb(49; 99; 115) ;
+    color:black;
+    font-weight: bold;
+    padding: 10px 40px;
+    border-radius: 1px;
+    cursor: pointer; 
+    box-shadow: 0 3px 6px 0 black ;
+    list-style-type: none; 
+    text-align : center ;
+    position : fixed ; left : 19px ;   
+    transition : box-shadow 1s ; 
+    
+}
+#element_nav_3:hover
+{
+    background-color: rgb(49; 99; 115) ;
+    box-shadow: 12 14px 16px 5 black ; 
+    width : 135px ;
+    height : 75px ;
+    position : relative ; top : 350px ; left : 8px ;
+ 
+    
+}
+#element_nav_4
+{
+	top : 630px ;
+	height : 70px ;
+	width : 125px ;
+	background-color: rgb(49; 99; 115) ;
+    color:black;
+    font-weight: bold;
+    padding: 10px 40px;
+    border-radius: 1px;
+    cursor: pointer; 
+    box-shadow: 0 3px 6px 0 black ;
+    list-style-type: none;
+    text-align : center ;
+    position : fixed ; left : 19px ;   
+    transition : box-shadow 1s ; 
+}
+#element_nav_4:hover
+{
+    background-color: rgb(49; 99; 115) ;
+    box-shadow: 12 14px 16px 5 black ; 
+    width : 135px ;
+    height : 75px ;
+    position : relative ; top : 500px ; left : 8px ;
+ 
+    
+}
+.contenu_header
+{
+	display : flex ;
+	flex-direction : row ;
+	justify-content : space-around ;
+}
+/*searchbar{position:relative; right : -400px ; top : 150px }
+.formulaire               {display:inline-block;}
+.formulaire .champ       {width:300px; height:21px;}
+.formulaire .bouton       { background-image: url(searchicon.jpg);background-repeat: no-repeat;width: 27px;height: 27px;padding: 0; }
+*/
+#element_2_header
+{
+	position : relative ; top : 22px; left : 42px ;
+}
+#element_2_header:hover
+{
+	background-color: rgb(49; 99; 115) ;
+    box-shadow: 12 14px 16px 5 black ; 
+}
+#serachbaba
+{
+	position : relative ; top : 43px; left : 550px ;
+	height : 42px ;
+	width : 45px ;
+}
+#serachbaba:hover /* desol pour le nom serachbaba ;) */
+{
+	position : relative ; top : 43px; left : 550px ;
+	height : 48px ;
+	width : 53px ;	
+}
+#shooping-card
+{
+	opacity : 0.6 ;
+	position : relative ; top : 38px; left : 600px ;
+	height : 46px ;
+	width : 51px ;
+
+}
+#shooping-card:hover
+{
+	position : relative ; top : 38px; left : 600px ;
+	height : 52px ;
+	width : 57px ;	
+}
+#pc
+{  
+    position : fixed ; top : 200px ; right : 80px ;
+    height : 20em ;
+	width : 19em ;
+}
+#sorry
+{
+	 position : fixed ; top : 250px ; left : 250px ;
+	 font-size : 1.8em ;
+	 
+}
+#exuser_titre
+{
+    position : fixed ; top : 400px ; left : 250px ;
+	font-size : 0.9em ;
+	 
+}
+#search
+{
+	padding : 6px ;
+	border : 6px solid #316373 ;
+	border-radius : 40px ;
+	outline : none ;
+	width : 150px ;
+	height : 150px ;
+	padding-left : 50px ;
+	background : url("loupe(2).ico") right no-repeat ; 
+	-webkit-transition : width 2s ;
+	-moz-transition : width 2s ;
+	-o-transition : width 2s ;
+	transition : width 2s ;
+	position : absolute ; top : 200px ; left : 300px ; 
+	font-size : 2em ;
+	
+}
+#search:focus
+{
+	width : 870px ;
+}
+#aboutus
+{
+    font-family : Georgia,"Gill Sans", sans-serif; 
+	position    : relative ; top : 35px ; right: -250px ;
+	font-family : sans-serif ; 
+	font-size   : 2.2em ;
+	
+}
+#aboutus1
+{
+    font-family : Georgia,"Gill Sans", sans-serif; 
+	position    : relative ; top : 50px ; left : 250px ; 
+	font-family : sans-serif ; 
+	font-size   : 1.78em ;
+}
+/* #aboutus2
+{
+	/* position    : relative ; top : 50px ; left : 300px ; */
+/*	font-family : sans-serif ; 
+	font-size   : 2.5em ;
+}
+#aboutus3
+{
+	/* position    : relative ; top : 50px ; left : 300px ; */
+/*	font-family : sans-serif ; 
+	font-size   : 2.5em ;
+}
+*/
+@media all and ( max-width:600px )
+{
+	shooping-card {position:relative;left:300px;}
+}
+/* @media spech and ( max-height:1000px )
+/* {
+/*	nav {overflow : auto}
+/* } */
+#someideas
+{
+	font-family : Georgia,"Gill Sans", sans-serif;
+	position    : fixed ; top : 500px ; left : 310px ;
+	font-size : 1.5em ;
+}
+#account_logo
+{
+	position : relative ; top : 38px ; right : -350px ;
+	height : 60px ;
+	weight : 660px ;
+}
+#account_logo:hover
+{
+	height : 64px ;
+	width : 64px ;
+}
+form.form-example {
+    display: table;
+}
+
+div.form-example {
+    display: table-row;
+}
+
+label, input {
+    display: table-cell;
+    margin-bottom: 10px;
+}
+
+label {
+    padding-right: 10px;
+}
+#formulaire
+{
+	position    : relative ; top : 200px ; left : 240px ;
+	font-size   : 1.5em ;
+}
+#soon
+{
+	position    : relative ; top : -150px ; left : 600px ;
+	font-size   : 3em ;
+}
+#compteur
+{
+	position    : relative ; top : -150px ; left : 240px ;
+	font-size   : 3em ;
+}
