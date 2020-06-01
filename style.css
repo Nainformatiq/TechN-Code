@@ -302,12 +302,6 @@ header
 	position    : fixed ; top : 500px ; left : 310px ;
 	font-size : 1.5em ;
 }
-#account_logo
-{
-	position : relative ; top : 38px ; right : -350px ;
-	height : 60px ;
-	weight : 660px ;
-}
 #account_logo:hover
 {
 	height : 64px ;
@@ -343,4 +337,14 @@ label {
 {
 	position    : relative ; top : -150px ; left : 240px ;
 	font-size   : 3em ;
+}
+#join
+{
+	font-size : 2em ;
+}
+#join:hover
+{
+	font-size : 2em ;
+	text-decoration : none ;
+	border : 1px solid black ;
 }
